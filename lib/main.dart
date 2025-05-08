@@ -5,9 +5,7 @@ void main() {
   runApp(const MyApp());
 }
 
-// -------------------------
-// Clase raíz de la app
-// -------------------------
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -21,9 +19,7 @@ class MyApp extends StatelessWidget {
   }
 }
 
-// -------------------------
-// Página principal (menú)
-// -------------------------
+
 class StreamMenuPage extends StatelessWidget {
   final List<Map<String, String>> streams = [
     {
@@ -79,9 +75,7 @@ class StreamMenuPage extends StatelessWidget {
   }
 }
 
-// -------------------------
-// Página del reproductor
-// -------------------------
+
 class VideoPage extends StatefulWidget {
   final String title;
   final String videoUrl;
