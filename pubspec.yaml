@@ -1,0 +1,25 @@
+name: flutter_application_1  # Asegúrate de que el nombre coincida con tu proyecto
+
+description: A new Flutter project to stream sports channels
+
+publish_to: 'none' # Remove this line if you plan to publish the app
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  video_player: ^2.3.0 # Asegúrate de tener la versión correcta
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+# For assets, fonts, etc. You can specify other folders here if needed.
+assets:
+  - assets/video/ # Ejemplo de carpeta para recursos de video, si es necesario.
+
